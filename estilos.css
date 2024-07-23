@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0px;
+}
+.nav-bar{
+    text-align: center;
+    height: 4%;
+    background-color: rgba(0, 0, 20);
+}
+.nav-bar-botoes{
+    border: none;
+    transition-duration: 0.4s;
+    background-color: rgba(0, 0, 20);
+    cursor: pointer;
+    height: 100%;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: Courier Prime, monospace;
+    font-size: 100%;
+}
+.nav-bar-botoes:hover{
+    background-color: white;
+    color: black;
+}
+.div-principal{
+    text-align: center;
+}
+.div-principal-h1{
+    padding-top: 2rem;
+    font-family: Ubuntu Sans Mono, monospace;
+    font-size: 300%;
+}
