@@ -4,6 +4,10 @@
 *{
     margin: 0px;
 }
+
+/*
+NAV
+*/
 .div-nav,.nav-bar{
     height: 8%;
 }
@@ -13,9 +17,6 @@
     background-color: rgba(0, 0, 20);
     display: flex;
     position: fixed;
-}
-.nav-bar-img{
-    height: 100%;;
 }
 .nav-bar-botoes{
     border: none;
@@ -33,21 +34,27 @@
     background-color: white;
     color: black;
 }
+
+
+/*
+DIVs
+*/
 .div-principal{
     background-size: auto;
     background-image: url(/img/fundo.jpg);
     height: 10000px;
 }
+.div-principal-titulos{
+    text-align: center;
+}
 .div-principal-h1{
     padding-top: 7rem;
-    padding-left: 5rem;
     font-family: Ubuntu Sans Mono, monospace;
     font-size: 300%;
     color: white;
 }
 .div-principal-h2{
     padding-top: 2rem;
-    padding-left: 7rem;
     padding-bottom: 7rem;
     font-family: Courier Prime, monospace;
     color: white;
@@ -58,7 +65,7 @@
     align-items: center;
 }
 .div-imagem-textos{
-    width: 80%;
+    width: 70%;
     display: flex;
     align-items: center;
     text-align: center;
@@ -68,6 +75,28 @@
     font-family: Courier Prime, monospace;
     font-size: 130%;
     flex: 1;
+}
+
+
+/*
+BUTTONs
+*/
+.carousel-prev,.carousel-next{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 5%;
+}
+.carousel-button-img{
+    width: 100%;
+}
+
+
+/*
+IMGs
+*/
+.nav-bar-img{
+    height: 100%;
 }
 .img-imagem1{
     height: auto;
