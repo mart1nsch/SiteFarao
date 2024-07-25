@@ -23,15 +23,37 @@
                     Com dedicação e esforços, fazemos você conhecer<br>o mundo do jeito que deve ser.
                 </h2>
             </div>
-            <div class="div-flex-img-txt">
-                <button class="carousel-prev"><img class="carousel-button-img" src="img/icons/prev-icon.svg"></button>
-                <div class="div-imagem-textos">
-                    <p class="div-imagem1-p">
-                        A mais de 10 anos no mercado, a TreeFace tem orgulho de levar em sua mala a coragem e sua determinação como lemas principais.
-                    </p>
-                    <img class="img-imagem1" src="img/TreeFace_Paisagem1.JPEG">
+            <div class="div-carousel-flex">
+                <div class="div-flex-img-txt">
+                    <div class="div-imagem-textos" id="primeiro-carousel">
+                        <p class="div-imagem-p">
+                            A mais de 10 anos no mercado, a TreeFace tem orgulho de levar em sua mala a coragem e sua determinação como lemas principais.
+                        </p>
+                        <img class="img-imagem" src="img/TreeFace_Paisagem1.JPEG">
+                    </div>
                 </div>
-                <button class="carousel-next"><img class="carousel-button-img" src="img/icons/next-icon.svg"></button>
+                <div class="div-flex-img-txt">
+                    <div class="div-imagem-textos">
+                        <img class="img-imagem" src="img/TreeFace_Paisagem2.JPEG">
+                        <p class="div-imagem-p">
+                            Com uma carta de destinos com mais de 100 países, buscamos oferecer a melhor experiência de sua vida por meio de parceria
+                            com os melhores hotéis, resorts e pousadas, além de passeios de tirar o fôlego.
+                        </p>
+                    </div>
+                </div>
+                <div class="div-flex-img-txt">
+                    <div class="div-imagem-textos">
+                        <p class="div-imagem-p">
+                            Eleita por 3 anos seguidos a melhor agência de viagens do Brasil, nos reinventamos a cada dia em busca de nossa melhor versão.
+                        </p>
+                        <img class="img-imagem" src="img/TreeFace_Paisagem3.JPEG">
+                    </div>
+                </div>
+            </div>
+            <div class="div-buttons-carousel">
+                <button class="carousel-button" onclick="showSlide(0)"><img class="carousel-button-img" src="img/icons/circle-empty.svg"></button>
+                <button class="carousel-button" onclick="showSlide(1)"><img class="carousel-button-img" src="img/icons/circle-empty.svg"></button>
+                <button class="carousel-button" onclick="showSlide(2)"><img class="carousel-button-img" src="img/icons/circle-empty.svg"></button>
             </div>
         </div>
     </body>

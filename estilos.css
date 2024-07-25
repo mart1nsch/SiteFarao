@@ -10,6 +10,7 @@ NAV
 */
 .div-nav,.nav-bar{
     height: 8%;
+    z-index: 1000;
 }
 .nav-bar{
     text-align: center;
@@ -42,7 +43,7 @@ DIVs
 .div-principal{
     background-size: auto;
     background-image: url(/img/fundo.jpg);
-    height: 10000px;
+    height: 5000px;
 }
 .div-principal-titulos{
     text-align: center;
@@ -59,10 +60,16 @@ DIVs
     font-family: Courier Prime, monospace;
     color: white;
 }
+.div-carousel-flex{
+    display: flex;
+    overflow: hidden;
+}
 .div-flex-img-txt{
     display: flex;
     justify-content: center;
-    align-items: center;
+    max-width: 100%;
+    min-width: 100%;
+    transition: transform 0.7s ease-in-out;
 }
 .div-imagem-textos{
     width: 70%;
@@ -70,22 +77,30 @@ DIVs
     align-items: center;
     text-align: center;
 }
-.div-imagem1-p{
+.div-imagem-p{
     color: white;
     font-family: Courier Prime, monospace;
     font-size: 130%;
-    flex: 1;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-style: italic;
+}
+.div-buttons-carousel{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 /*
 BUTTONs
 */
-.carousel-prev,.carousel-next{
+.carousel-button{
     background-color: transparent;
     border: none;
     cursor: pointer;
-    width: 5%;
+    width: 0.8cm;
 }
 .carousel-button-img{
     width: 100%;
@@ -98,7 +113,7 @@ IMGs
 .nav-bar-img{
     height: 100%;
 }
-.img-imagem1{
+.img-imagem{
     height: auto;
     width: 30%;
     float: right;
