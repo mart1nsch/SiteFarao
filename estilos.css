@@ -21,7 +21,7 @@ NAV
 }
 .nav-bar-botoes{
     border: none;
-    transition-duration: 0.4s;
+    transition-duration: 0.5s;
     background-color: rgba(0, 0, 20);
     cursor: pointer;
     height: 100%;
@@ -34,6 +34,7 @@ NAV
 .nav-bar-botoes:hover{
     background-color: white;
     color: black;
+    text-decoration: underline;
 }
 
 
@@ -43,7 +44,7 @@ DIVs
 .div-principal{
     background-size: auto;
     background-image: url(/img/fundo.jpg);
-    height: 5000px;
+    height: auto;
 }
 .div-principal-titulos{
     text-align: center;
@@ -83,7 +84,6 @@ DIVs
     font-size: 130%;
     padding-left: 2rem;
     padding-right: 2rem;
-    font-style: italic;
 }
 .div-buttons-carousel{
     padding-top: 2rem;
